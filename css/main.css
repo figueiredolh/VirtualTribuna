@@ -1,0 +1,32 @@
+body{
+    padding: 50px 10% 20px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav{
+    float: right;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    line-height: 48px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+.seta{
+    color: #F24B4B;
+}
+
+/*  */
+
+.borda{
+    border: 1px solid black;
+}
