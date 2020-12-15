@@ -10,7 +10,7 @@
     <meta name="robots" content="index, follow">
     <meta name="copyright" content="Elmundo.es"> -->
     <meta name="author" content="L. Henrique Lima">
-    <title>Virtual Tribuna</title>
+    <title>Vitrine Tribuna</title>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/a125096efd.js" crossorigin="anonymous"></script>
     <!-- fontes google - Roboto e Roboto Condensed-->
@@ -22,13 +22,13 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <!-- owlCarousel -->
-    <!--  <link rel="stylesheet" href="owlCarousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlCarousel/dist/assets/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="./owlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owlCarousel/dist/assets/owl.theme.default.css">
 </head>
 
 <body>
 
-    <header class="container-fluid">
+    <header class="clearfix">
         <img src="./img/VirtualTribuna.png" alt="">
         <nav>
             <ul>
@@ -39,38 +39,204 @@
                     <i class="fas fa-arrow-alt-circle-right seta"></i>
                 </li>
                 <li>
-                    Fechar
+                    <button class="border-radius">
+                        Fechar
+                    </button>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section class="container-fluid m-5 secao1">
+    <section class="px-5 mt-4">
         <div class="row">
-            <div class="col-3">
+            <div class="col-lg-3">
                 <img src="./img/airfryer.png" alt="" class="borda">
             </div>
-            <div class="col-3">
+            <div class="col-lg-3">
                 <img src="./img/iphone.png" alt="" class="borda">
             </div>
-            <div class="col-3">
-                <div class="row">
-                    <img src="./img/cuponsboutique.png" alt="">
-                    <img src="./img/empregos.png" alt="" class="mt-5 borda">
+            <!-- <div class="col-lg-3">
+                <img src="./img/cuponsboutique.png" alt="">
+                <img src="./img/empregos.png" alt="" class="mt-5 borda">
+            </div>
+            <div class="col-lg-3">
+                <img src="./img/cuponscasas.png" alt="">
+                <img src="./img/empregos.png" alt="" class="mt-5 borda">
+            </div> -->
+            <div class="col-lg-6">
+                <div class="row" style="height: 234px;">
+                    <div class="col-lg-6">
+                        <img src="./img/cuponsboutique.png" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./img/cuponscasas.png" alt="">
+                    </div>
+                </div>
+
+                <div class="row" style="height: 234px;">
+                    <div class="col-lg-6 align-self-end">
+                        <img src="./img/empregos.png" alt="" class="borda">
+                    </div>
+                    <div class="col-lg-6 align-self-end">
+                        <img src="./img/empregos.png" alt="" class="borda">
+                    </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="row">
-                    <img src="./img/cuponscasas.png" alt="">
-                    <img src="./img/empregos.png" alt="" class="mt-5 borda">
+        </div>
+    </section>
+
+    <section class="mt-4">
+        <header class="clearfix">
+            <div class="border-radius-secao">
+                Produtos
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        Ver todas as ofertas
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-alt-circle-right seta"></i>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="my-4">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/cabeceira.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title m-0">Mesa de cabeceira - Bled</h6>
+                                <p class="card-text m-0">R$ 390,90</p>
+                                <p class="card-text m-0">R$ 124,90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/cabeceira.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title m-0">Mesa de cabeceira - Bled</h6>
+                                <p class="card-text m-0">R$ 390,90</p>
+                                <p class="card-text m-0">R$ 124,90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/cabeceira.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title m-0">Mesa de cabeceira - Bled</h6>
+                                <p class="card-text m-0">R$ 390,90</p>
+                                <p class="card-text m-0">R$ 124,90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/cabeceira.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title m-0">Mesa de cabeceira - Bled</h6>
+                                <p class="card-text m-0">R$ 390,90</p>
+                                <p class="card-text m-0">R$ 124,90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/cabeceira.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title m-0">Mesa de cabeceira - Bled</h6>
+                                <p class="card-text m-0">R$ 390,90</p>
+                                <p class="card-text m-0">R$ 124,90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/cabeceira.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title m-0">Mesa de cabeceira - Bled</h6>
+                                <p class="card-text m-0">R$ 390,90</p>
+                                <p class="card-text m-0">R$ 124,90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/cabeceira.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title m-0">Mesa de cabeceira - Bled</h6>
+                                <p class="card-text m-0">R$ 390,90</p>
+                                <p class="card-text m-0">R$ 124,90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/cabeceira.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title m-0">Mesa de cabeceira - Bled</h6>
+                                <p class="card-text m-0">R$ 390,90</p>
+                                <p class="card-text m-0">R$ 124,90</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- <button id="btn_prev">Anterior</button>
+            <button id="btn_next">Próximo</button> -->
         </div>
     </section>
 
     <script type="text/javascript" src="./js/jquery-3.5.1.slim.min.js"></script>
     <script type="text/javascript" src="./js/popper.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script src="./owlCarousel/dist/owl.carousel.min.js"></script>
+
+    <script type="text/javascript">
+        var owl = $(".owl-carousel");
+
+        owl.owlCarousel({
+            items: 6,
+            margin: 8,
+            nav: true,
+            dots: false
+        });
+
+        /* $("#btn_prev").on('click', function(){
+        owl.trigger('prev.owl.carousel');
+        })
+
+        $("#btn_next").on('click', function(){
+        owl.trigger('next.owl.carousel');
+        }) */
+    </script>
 </body>
 
 </html>

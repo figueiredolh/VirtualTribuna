@@ -1,2 +1,2 @@
-# VirtualTribuna
- Projeto Virtual Tribuna -  Mundiware
+# VitrineTribuna
+ Projeto Vitrine Tribuna -  Mundiware
