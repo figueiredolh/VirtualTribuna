@@ -21,7 +21,7 @@ ul{
 
 nav ul li{
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 12px;
     text-transform: uppercase;
 }
@@ -59,8 +59,9 @@ nav ul li:nth-child(3){
 /*  */
 
 .border-radius-secao{
-    width: 151px;
+    /* width: 151px; */
     height: 60px;
+    padding: 10px 20px;
     background-color: #272727;
     border-radius: .3em;
     outline: none;
@@ -68,9 +69,44 @@ nav ul li:nth-child(3){
     color: white;
     font-size: 22px;
     font-weight: bold;
-    line-height: 60px;
-    text-align: center;
+    /* line-height: 60px;
+    text-align: center; */
     display: inline-block;
 }
 
 /*  */
+
+.card-body h6, .precoant{
+    font-size: 14px;
+    color: #C7C7C7;
+}
+
+.precoant{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.preco, .desconto{
+    color: #707070;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*  */
+
+.artigo{
+    background-color: white;
+    padding: 20px;
+}
+
+.artigo h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.artigo p{
+    font-size: 14px;
+    color: #A9A9A9;
+    font-weight: 400;
+}
+
