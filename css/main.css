@@ -92,6 +92,57 @@ nav ul li:nth-child(3){
     font-size: 18px;
 }
 
+.card-rodape{
+    display: flex;
+}
+
+.promocao{
+    background-color: #F24B4B;
+    color: white;
+    border-radius: 0 0 0 .3em;
+}
+
+.detalhes{
+    background-color: #F2F2F2;
+    color: #333333;
+    border-radius: 0 0 .3em 0;
+}
+
+.promocao, .detalhes{
+    width: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px 8px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.promocao:hover, .detalhes:hover{
+    text-decoration: none;
+}
+
+.promocao:hover{
+    color: #F2F2F2;
+}
+
+.detalhes:hover{
+    color: #5c5c5c;
+}
+
+/*  */
+
+.cupons{
+    background-color: #51C07A;
+    color: white;
+    border-radius: 0 0 .3em 0;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 /*  */
 
 .artigo{
