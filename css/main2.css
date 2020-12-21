@@ -1,0 +1,117 @@
+body{
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.centralizar{
+    margin: 0 auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav, ul{
+    display: inline;
+} */
+
+/* Topo */
+
+.topo{
+    background-color: #262626;
+    height: 50px;
+}
+
+.divtopo{
+    position: relative; 
+}
+
+.divtopo ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+.divtopo a{
+    color: #F0EFEF;
+}
+
+.divtopo a:hover{
+    color: #dadada;
+    text-decoration: none;
+}
+
+.divtopo a i{
+    padding-right: 10px;
+}
+
+.nav1{
+    position: absolute;
+    left: 0;
+}
+
+.divtopo img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+.nav2{
+    position: absolute;
+    right: 0;
+}
+
+/* tn-online */
+
+.tnonline{
+    background-color: white;
+    height: 150px;
+}
+
+.divtnonline{
+    position: relative;
+}
+
+.divtnonline ul li{
+    display: inline-block;
+    line-height: 150px;
+}
+
+.divtnonline nav{
+    position: absolute;
+    left: 0%;
+}
+
+.divtnonline a{
+    color: #E61F22;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.divtnonline a:hover{
+    text-decoration: none;
+}
+
+.divtnonline a i{
+    font-size: 26px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.divtnonline .logo{
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+.divtnonline .revista{
+    position: absolute;
+    top: 50px;
+    left: 84%;
+    transform: translate(-50%, 10%);
+}
