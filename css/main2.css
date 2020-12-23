@@ -5,6 +5,7 @@ body{
 
 .centralizar{
     margin: 0 auto;
+    width: 80%;
 }
 
 ul{
@@ -20,18 +21,23 @@ ul{
 
 .topo{
     background-color: #262626;
-    height: 50px;
+    height: 55px;
 }
 
 .divtopo{
-    position: relative; 
+    position: relative;
+    height: inherit;
 }
 
 .divtopo ul li{
     display: inline-block;
     text-transform: uppercase;
-    margin-right: 20px;
-    line-height: 50px;
+    padding: 0px 15px;
+    line-height: 55px;
+}
+
+.divtopo ul li:hover{
+    background-color: #404040;
 }
 
 .divtopo a{
@@ -45,6 +51,7 @@ ul{
 
 .divtopo a i{
     padding-right: 10px;
+    font-size: 22px;
 }
 
 .nav1{
@@ -55,7 +62,7 @@ ul{
 .divtopo img{
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 10%);
+    transform: translate(-50%, 15%);
 }
 
 .nav2{
@@ -72,11 +79,13 @@ ul{
 
 .divtnonline{
     position: relative;
+    height: inherit;
 }
 
 .divtnonline ul li{
     display: inline-block;
     line-height: 150px;
+    margin-right: 20px;
 }
 
 .divtnonline nav{
@@ -88,7 +97,6 @@ ul{
     color: #E61F22;
     font-weight: 600;
     font-size: 18px;
-    padding-right: 15px;
     text-transform: uppercase;
 }
 
@@ -104,14 +112,142 @@ ul{
 
 .divtnonline .logo{
     position: absolute;
-    top: 25px;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 10%);
+    transform: translate(-50%, -50%);
 }
 
 .divtnonline .revista{
     position: absolute;
-    top: 50px;
-    left: 84%;
-    transform: translate(-50%, 10%);
+    right: 3%;
+    bottom: 0;
+}
+
+/* Barra Menu */
+
+.barranav{
+    background-color: #E61F22;
+    height: 45px;
+}
+
+.divbarranav{
+    position: relative;
+    height: inherit;
+}
+
+.divbarranav ul li{
+    display: inline-block;
+    line-height: 45px;
+    margin-right: 20px;
+}
+
+.divbarranav nav{
+    position: absolute;
+    left: 0;
+}
+
+.apis{
+    position: absolute;
+    right: 0;
+}
+
+.divbarranav a, .apis{
+    color: #F0EFEF;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.divbarranav a:hover{
+    color: #dadada;
+    text-decoration: none;
+}
+
+.apis li i{
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.apis ul{
+    display: flex;
+    align-items: center;
+}
+
+/* Mais Lidas */
+
+.maislidas{
+    background-color: #F9F9F9;
+    height: 97px;
+}
+
+.divmaislidas{
+    position: relative;
+    height: inherit;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.vertodos{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    padding: 15px 40px 15px 0px;
+    border-right: 2px solid #E0E0E0;
+}
+
+.vertodos p{
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.vertodos button{
+    padding: 0px 40px;
+    border: 1px solid #AAB0BA;
+    border-radius: .3em;
+    background-color: inherit;
+    color: #AAB0BA;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Vitrine */
+
+.vitrine{
+    background-color: #F24B4B;
+    height: 84px;
+}
+
+.divvitrine{
+    position: relative;
+    height: inherit;
+}
+
+nav .home{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+
+nav .logovitrine{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav .menu{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+nav .home a, nav .menu a{
+    font-size: 26px;
+    color: white;
 }
