@@ -189,8 +189,6 @@ ul{
 .vertodos{
     position: absolute;
     left: 0%;
-    top: 50%;
-    transform: translate(0%, -50%);
     padding: 15px 40px 15px 0px;
     border-right: 2px solid #E0E0E0;
 }
@@ -212,6 +210,17 @@ ul{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
+}
+
+article ul{
+    display: flex;
+    padding-left: 15%;
+}
+
+article ul li{
+    list-style-type: none;
+    font-size: 13px;
+    padding: 5px 10px;
 }
 
 /* Vitrine */
@@ -250,4 +259,74 @@ nav .menu{
 nav .home a, nav .menu a{
     font-size: 26px;
     color: white;
+}
+
+/* Air Fryer */
+
+.airfryer{
+    background-color: #FCFBFB;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.airfryer img{
+    float:left;
+}
+
+.info{
+    /* float: left; */
+    padding-left: 40px;
+    width: 50%;
+    position: relative;
+}
+
+.info p{
+    margin: 0;
+}
+
+.nomesecao{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #bbb;
+}
+
+.precoant{
+    font-size: 26px;
+    text-decoration: line-through;
+    font-weight: bold;
+    color: #bbb;
+}
+
+.precoatual{
+    font-size: 36px;
+    font-weight: bold;
+    color: #F24B4B;
+    padding-bottom: 5px;
+    display: flex;
+    position: relative;
+    top: -10px;
+    left: 0;
+}
+
+.botaoestoque{
+    border-radius: 1.5em;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+}
+
+.botaopromocao{
+    border-radius: .5em;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 70px;
+    background-color: #51C07A;
+    color: white;
+}
+
+.info2{
+    padding-top: 35px;
 }
