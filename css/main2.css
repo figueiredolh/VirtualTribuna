@@ -172,6 +172,15 @@ ul{
     align-items: center;
 }
 
+.apis{
+    display: flex;
+}
+
+.apis li:nth-child(2), .apis li:nth-child(3){
+    display: flex;
+    align-items: center;
+}
+
 /* Mais Lidas */
 
 .maislidas{
@@ -269,18 +278,30 @@ nav .home a, nav .menu a{
     margin-bottom: 50px;
 }
 
+.airfryer h1{
+    font-size: 32px;
+}
+
 .airfryer img{
     float:left;
 }
 
 .info{
-    /* float: left; */
-    padding-left: 40px;
-    width: 50%;
-    position: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
-.info p{
+.info1{
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
+    width: 50%;
+}
+
+.info1 p, .info2 p{
     margin: 0;
 }
 
@@ -312,21 +333,143 @@ nav .home a, nav .menu a{
     border-radius: 1.5em;
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: 500;
     padding: 10px 25px;
     background-color: black;
     color: white;
+    border: none;
 }
 
 .botaopromocao{
     border-radius: .5em;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
-    padding: 15px 70px;
+    padding: 15px 90px;
     background-color: #51C07A;
     color: white;
+    border: none;
 }
 
 .info2{
-    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.redessociais{
+    border: none;
+    padding: 12px 20px;
+    font-size: 22px;
+    border-radius: .3em;
+    color: white;
+}
+
+.globo{
+    background-color: #3E98AE;
+}
+
+.facebook{
+    background-color:#4642A5;
+}
+
+.whats{
+    background-color: #42A577;
+}
+
+/* Descrição do Produto */
+
+.descricao p, .descricao span{
+    font-size: 18px;
+}
+
+.descricao h2{
+    font-size: 20px;
+    display: inline;
+}
+
+/* Seção Produtos */
+
+.border-radius-secao{
+    /* width: 151px; */
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #272727;
+    border-radius: .3em;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    /* line-height: 60px;
+    text-align: center; */
+    display: inline-block;
+}
+
+.card-body h6, .precoant{
+    font-size: 14px;
+    color: #C7C7C7;
+}
+
+.preco, .desconto{
+    color: #707070;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-rodape{
+    display: flex;
+}
+
+.promocao{
+    background-color: #F24B4B;
+    color: white;
+    border-radius: 0 0 0 .3em;
+}
+
+.detalhes{
+    background-color: #F2F2F2;
+    color: #333333;
+    border-radius: 0 0 .3em 0;
+}
+
+.promocao, .detalhes{
+    width: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px 8px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.promocao:hover, .detalhes:hover{
+    text-decoration: none;
+}
+
+.promocao:hover{
+    color: #F2F2F2;
+}
+
+.detalhes:hover{
+    color: #5c5c5c;
+}
+
+/*  */
+
+.cupons{
+    background-color: #51C07A;
+    color: white;
+    border-radius: 0 0 .3em .3em;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cupons:hover{
+    text-decoration: none;
+    color: #eee;
 }
